@@ -41,7 +41,7 @@
 ## Тестування за допомогою Postman
 
 1. Встановіть [Postman](https://www.postman.com/)
-2. Завантажте [колекцію Postman](https://web.postman.co/workspace/My-Workspace~90bfe65c-3391-4712-85a5-942ea0b8763d/flow/659ab6a5c9d7bd003cf6dd29)
+2. Відкрийте [Postman Flow](https://web.postman.co/workspace/My-Workspace~90bfe65c-3391-4712-85a5-942ea0b8763d/flow/659ab6a5c9d7bd003cf6dd29)
 3. Створіть середовище для локальної розробки та production
 4. Запустіть застосунок та перевірте ендпоінти за допомогою Postman колекції(Json файл в репо)
 
