@@ -1,4 +1,4 @@
-# Ваш Назва Проекту REST API
+# Currency Project REST API
 
 Цей проект представляє собою базовий REST API для обліку витрат. 
 
