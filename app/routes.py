@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 from .extensions import db
-from schemes import CurrencySchema, CategorySchema, RecordSchema, UserSchema
+from .schemes import CurrencySchema, CategorySchema, RecordSchema, UserSchema
 from .models import MoneyModel, AccountUserModel, ExpenditureCategoryModel, FinanceRecordModel
 import uuid
 from datetime import datetime
