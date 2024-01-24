@@ -1,14 +1,21 @@
 version: '3'
 
 services:
+  db:
+    image: postgres:15.4-alpine3.18
+    environment:
+        POSTGRES_DB: postgres
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: root123
+    ports:
+      - 5432:5432
+      
   web:
     build: .
     ports:
       - "8000:8000"
     environment:
       - FLASK_ENV=development
-  db:
-    image: postgres:15.4-alpine3.18
-    environment:
-        POSTGRES_DB: Labs3
-        POSTGRES_PASSWORD: somekindofpassword
+    depends_on:
+      - db
+

@@ -1,5 +1,5 @@
 from sqlalchemy import func
-from extensions import db
+from .extensions import db
 
 class MoneyModel(db.Model):
     __tablename__ = 'money_type'
