@@ -7,3 +7,9 @@ services:
       - "8000:8000"
     environment:
       - FLASK_ENV=development
+  db:
+    image: postgres:15.4-alpine3.18
+    environment:
+      POSTGRES_PASSWORD: BlaBlaBla
+      POSTGRES_DB: labBack
+  
