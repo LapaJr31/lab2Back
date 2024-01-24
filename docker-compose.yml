@@ -10,6 +10,5 @@ services:
   db:
     image: postgres:15.4-alpine3.18
     environment:
-      POSTGRES_PASSWORD: BlaBlaBla
-      POSTGRES_DB: labBack
-  
+        POSTGRES_DB: Labs3
+        POSTGRES_PASSWORD: somekindofpassword
